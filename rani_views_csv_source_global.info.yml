@@ -1,0 +1,7 @@
+name: 'Rani Views CSV Source Global Filter'
+type: module
+description: 'Extends Views CSV Source with global filter functionality for searching across multiple columns.'
+core_version_requirement: ^10 || ^11
+package: 'Custom'
+dependencies:
+  - views_csv_source:views_csv_source

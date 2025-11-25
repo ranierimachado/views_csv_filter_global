@@ -1,0 +1,3 @@
+services:
+  rani_views_csv_source_global.filter_helper:
+    class: Drupal\rani_views_csv_source_global\Service\GlobalFilterHelper

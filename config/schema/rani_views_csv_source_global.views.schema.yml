@@ -1,0 +1,26 @@
+# Schema for the global filter plugin.
+
+views.filter.rani_csv_filter_global:
+  type: views_filter
+  label: 'CSV Field - Global Search'
+  mapping:
+    key:
+      type: mapping
+      label: 'Search in columns'
+      mapping:
+        '*':
+          type: string
+          label: 'Value'
+    expose:
+      type: mapping
+      label: 'Exposed'
+      mapping:
+        required:
+          type: boolean
+          label: 'Required'
+        placeholder:
+          type: label
+          label: 'Placeholder'
+    value:
+      type: string
+      label: 'Value'
